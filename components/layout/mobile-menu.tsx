@@ -26,7 +26,7 @@ const navLinks = [
 
 const companyLinks = [
     { href: "/about", label: "About Us" },
-    { href: "/about", label: "Maction Team" },
+    { href: "/about#team", label: "Maction Team" },
     { href: "/about#mission-vision", label: "Mission, Vision and Values" },
     { href: "/contact-us", label: "Work With Us" },
     { href: "/services/market-research", label: "Market Research FAQs" },

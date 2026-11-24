@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import SectionHeading from "@/components/ui/section-heading";
 import MotionReveal from "@/components/shared/motion-reveal";
 import ComparisonTable from "@/components/sections/comparison-table";
+import TeamDirectory from "@/components/sections/team-directory";
 import { COMPANY_STATS, COMPANY_VALUES, ACCREDITATIONS, OFFICES } from "@/lib/site";
 import { Target, Eye, ArrowRight, Building2, BarChart3, MonitorSmartphone, Check } from "lucide-react";
 
@@ -180,6 +181,9 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Leadership and team */}
+      <TeamDirectory />
 
       {/* Who We Help */}
       <section className="bg-slate-50 py-24">
