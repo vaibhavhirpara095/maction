@@ -184,12 +184,6 @@ export default function Navbar() {
               </span>
             </a>
           </div>
-          <Link
-            href="/contact-us"
-            className="rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-200"
-          >
-            Discuss a project
-          </Link>
         </div>
 
         {/* Mobile menu trigger */}

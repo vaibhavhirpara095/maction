@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
 import SmoothScroll from "@/providers/smooth-scroll";
+import Chatbot from "@/components/layout/chatbot";
 
 export default function ClientLayoutWrapper({
   children,
@@ -30,6 +31,7 @@ export default function ClientLayoutWrapper({
         {children}
       </main>
       <Footer />
+      <Chatbot />
     </SmoothScroll>
   );
 }

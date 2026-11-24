@@ -142,14 +142,6 @@ export default function MobileMenu() {
                     </div>
 
                     <div className="space-y-6 border-t border-slate-100 pt-6">
-                        <SheetClose asChild>
-                            <Link
-                                href="/contact-us"
-                                className="flex w-full items-center justify-center rounded-full bg-brand px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-200"
-                            >
-                                Discuss a project
-                            </Link>
-                        </SheetClose>
                         <div className="flex flex-col gap-3 text-xs leading-tight font-bold text-slate-500">
                             <a
                                 href="tel:+917567296146"
